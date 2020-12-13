@@ -27,4 +27,38 @@ Namely , user should be see distinct cards when run program.
 
 <b> Despite, computer's cards should seems cover.User should not see from computer's card. </b>
 
-<img source="/img/image_1.png" height="400" width="500">
+<img src="/img/image_1.png" height="600" width="1000">
+
+
+Also , footballer and basketboller have distinct features that special for their branches.Such as an footballer card has shoot percentage as features and basketboller card has Field Goal Percentage as features .eg.
+
+The game will progress according to this features , As warning that choosen card (basketboller ,footballer) should be compare itself kind.Namely basketboller card should not be compare footballer card or else, programmer does not allow this bug.
+
+<img src="/img/image_2.png" height = "300" width = "400">
+
+## How to play
+
+User choose one card from its card , after that pc throw card that kind of user's card. When user chose card , action has triggered , and features has detected randomly.
+
+Assume that user has chosed basketboller card Lebron,after that pc has chosed one basketboller card Doncic.
+And feature has detected now,Such as "Field Goal Percentage" has chosed,then , when user should be push the "play" button ,
+program compares two cards according to choosen features. 
+Then it shows result as notice message.Such as "User won".Then user take 10 points. Game advances like this.
+
+
+
+<img src="/img/image_3.png" height = "600" width = "1000">
+
+
+## Framework of this project and UML diagram
+
+This project consist of two parent classes.These are "Sporcu.class" and "Oyuncu.class"
+
+`sporcu-sportsmen`
+`Oyuncu-player`
+
+- Other subclasses inherit from parent classes.
+- Such as basketbolcu.class and futbolcu.class inherit from Sporcu.class
+- Such as KullaniciSinifi.class and BilgisayarKullanicisi.class inherit from Oyuncu.class
+
+<img src="/img/uml.png" height = "600" width = "1000">
