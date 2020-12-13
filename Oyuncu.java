@@ -10,7 +10,7 @@
  * Kıvanç Aydoğmuş
     180201016
  */
-import java.util.ArrayList;
+import java.util.ArrayList; 
 
 public abstract class Oyuncu {
 
