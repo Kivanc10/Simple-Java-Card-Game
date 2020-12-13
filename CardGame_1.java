@@ -143,3 +143,4 @@ such as we can compare if compare_1_f > compare_2_f (assuming)
 user's point increasing ...
 Integer.parseInt(user_skor.getText())
  */
+ 
